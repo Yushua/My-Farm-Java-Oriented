@@ -1,0 +1,32 @@
+Objective: Create a terminal-based farm simulation game using Java 17 to learn and explore advanced Java concepts, focusing on dynamic code, synchronization, and real-time data management.
+
+Game Concept:
+
+You own a farm, operating within a day and night cycle where every action you perform (e.g., planting, feeding animals, harvesting) costs in-game time.
+The objective is to grow and manage the farm by expanding crops, livestock, and resources while optimizing the use of time.
+Learning Goals:
+
+Master the fundamentals of a loop-based game:
+Implement a game loop that controls the flow of time, including real-time tasks that affect game state (e.g., crops growing, animals producing resources).
+Synchronization of dynamic data:
+Ensure multiple tasks can happen simultaneously (e.g., crops growing while animals are fed).
+Explore thread management in Java to run parallel processes and keep data synchronized in real-time.
+Push beyond comfort zone with Java 17:
+Use Java 17 features such as records, sealed classes, and enhanced pattern matching to optimize data structures and interactions within the game.
+Integrate virtual threads (Project Loom) to experiment with concurrency and parallel task execution.
+Challenges and Dynamic Code:
+
+Build fully dynamic, flexible code where the farm's status (e.g., crop growth, animal health) updates in real-time as actions are performed.
+Implement a system to track multiple concurrent actions and synchronize their data to avoid conflicts or data inconsistencies.
+Test and stress test the system:
+
+Scale the game mechanics by adding more complexity (e.g., different crop types, varying growth times, animal management) to see how the game handles high concurrency.
+Use this project as a platform to experiment with rarely-used Java 17 applications in real-world scenarios, such as advanced memory management, performance optimization, or external API integration.
+Key Features:
+
+Day and night cycle: Controls game flow and limits the number of actions that can be performed within a set period.
+Action system: Time-bound tasks, where each action (planting, harvesting, feeding animals) takes time and synchronizes with the game’s state.
+Multiple task management: Learn to run and manage several in-game activities at once (e.g., watering crops while tending to livestock), ensuring data integrity.
+Focus:
+
+This project is not meant for clean or production-ready code, but rather a learning exercise to test the limits of Java 17 features, push yourself outside of your comfort zone, and develop a deeper understanding of dynamic coding, synchronization, and concurrency.
